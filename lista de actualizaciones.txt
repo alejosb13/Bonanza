@@ -1,0 +1,5 @@
+22/12/2017 -> Se modifico el menu en css y estructura,se creo las paginas de footer y menu para ser llamados, se modifico el css de ingresar tanto talas como lista de resultados.
+
+24/12/2017 ->Se modifico css para la tabla del listado y parte del menu para ajusta el segundo submenu. tambien js y parte de las paginas de funciones.
+
+01/01/2018 -> Se agregaron estilos en el home (Modificado css y Html), Se agrego la libreria  Fpdf Creando la pagina plantilla y pdf . Tambien se configuro El acceso a los directorios agregando la pagina .htaccess al direccorio raiz y el acceso de usuario por medio de sessiones.  

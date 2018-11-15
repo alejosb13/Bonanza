@@ -1,0 +1,250 @@
+@import url('normalize.css');
+@import url('bootstrap.css');
+@import url('bootstrap-theme.css');
+
+
+h1 {margin: 30px 0px 30px 0px !important;font-weight: 600;}
+.row{margin: 0px 0 15px 0;} 
+.principal .logo {min-height: 71px;}
+
+@media (min-width: 767px) { .navbar-nav .dropdown-menu .caret {transform: rotate(-90deg);} }
+.principal .logo .img{  position: absolute; width: 230px; height: auto; margin: 43px auto 0;  left: 0; right: 0;}
+.acces form{margin-top: 150px;}
+
+.register{ width: auto; display: block; margin:20px auto 0;  position: relative; text-align: center;}
+
+.container-fluid .navbar-header img{width: 198px;height: auto;margin-top: 7px;}
+.navbar-nav {margin: 0 auto;left: 0;width: 330px;right: 0;position: absolute;font-family: 'Oswald-Bold', sans-serif;font-weight: 600;font-size: 16px;}
+
+.dropdown-menu > li > a {display: block;padding: 3px 20px;clear: both;font-weight: normal;line-height: 1.42857143;color: #3b763d;white-space: nowrap;font-size: 15px;}
+
+.navbar-default .navbar-nav > li > a {color: #3b763d;}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {background-color: transparent;border-bottom: 2px #3b763d solid;}
+
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .active > a {background: none; border-bottom: 2px #3b763d solid;}
+
+ul li ul li ul {
+    /* top: -1px !important; */
+    margin:  0px !important;
+    /* left: 170px !important; */
+}
+ b.caret { position:  absolute; top: 14px;right: 20px;}
+
+@media (max-width: 767px) { b.caret{position:static;}}
+
+.table-bordered > tbody > tr > td { border:  none;}
+
+.table-bordered > tbody > tr > th {border:  none; border-bottom: 1px solid #ddd;}
+
+td.peso.input-group {margin: 10px 0 0 0;}
+
+.box {display: inline-block; position: relative; width: 76px; margin: 0 auto; text-align: center;}
+
+b.caret.n2 { position:  static;    margin: 0 0 0 10px;}
+
+
+
+/*.vacuna {
+    width: 280px;
+    text-align: center;
+}*/
+
+.peso { width: 10%;}
+
+tr td.txtarea {width: 250px;}
+
+textarea.form-control {width: 100% !important;margin: 0 !important;}
+
+td.numero { text-align: center; width: 120px;}
+
+.numero p { font-weight: 700; letter-spacing: 2px; font-size: 1.2em;}
+
+td.tipo { width: 272px;}
+
+td.peso {width: 151px;}
+
+tr td.text-center { width: 30px !important;}
+
+tr > td { vertical-align: middle !important;}
+
+table.table {/* margin-top: 30px; */}
+
+.numero input {width: 160px;}
+
+td.numero {    width: 63px !important;}
+
+table.table.table-bordered { width: auto; margin: 0px auto 25px;}
+
+.peso input.form-control { width: 98px;}
+
+/*Table fin*/
+.submit{margin: 0 auto; width: 185px;}
+
+.container .resultados .resu { width: 100%; margin:  0 auto;}
+
+
+.resultados { height:  200px; overflow: auto; margin:  0 auto; width: 80%;}
+
+
+/*modificar */
+  /*Modal*/
+  .input1 {
+    padding: 0px 20px 0px 0px;
+}
+
+.input2 {
+    padding: 0px 0px 0px 20px;
+}
+
+@media (max-width: 991px){
+    .input1 {
+        padding: 0px;
+    }
+
+    .input2 {
+        padding: 0px;
+    }
+}
+
+/*home*/
+.medida {
+    height: 65px;
+    overflow:  hidden;
+    border-radius: 11px;
+    border: solid 2px #3c763d;
+    background: #53b955;
+    padding: 0px 30px 0px 30px;
+}
+
+.medida:hover {
+    height:  auto;
+    background:  none;
+    transition: all 0.8s;
+    padding-bottom: 15px;
+}
+
+.anadirh {
+    font-weight:  600;
+    font-size: 22px;
+    margin: 20px 0 20px 0px;
+    color: #fff;
+}
+.medida ul {
+    padding: 0 0 0 30px;
+    font-size: 1.2em;
+}
+.sutl {
+    font-size: 1.2em;
+    font-weight: 600;
+    text-decoration:  underline;
+    color: #3c763d;
+    display:  block;
+    margin: 0px 0px 10px 0px;
+}
+.medida:hover .anadirh {
+    color: #000;
+}
+
+.medida:hover a {
+}
+
+
+.cuadro {
+    width: 60%;
+    margin: 72px auto 0px;
+}
+
+ul.col2 {
+    float:  right;
+    width: 53%;
+    list-style:  none;
+    padding: 0 0 0 21px;
+}
+
+ul.col1 {
+    width: 47%;
+    float:  left;
+    list-style:  none;
+    padding-left: 4px;
+}
+
+
+
+
+
+.medida ul li a {
+    background: #4a984b;
+    color: #fff;
+    padding: 3px 7px 3px 7px;
+    border-radius: 5px;
+    text-decoration:  none;
+    width: 94px;
+    border:  1px solid #4a984b;
+    text-align: center;
+    margin:  0 auto;
+    display:  block;
+}
+
+.medida ul li {line-height: 17px;margin: 16px 0 0px 0;}
+
+.medida ul li a:hover {
+    background: #fff;
+    color: #4a984b;
+    font-weight: 700;
+}
+
+.m2 h4 {
+    margin: 19px 1px 19px 0px;
+}
+
+.btn-lg, .btn-group-lg > .btn{
+    padding: 6px 9px;
+    position:  absolute;
+    right:  50%;
+    margin-right: -505px;
+    top: 140px;
+}
+.imp {
+    width: 100%;
+    height: 40px;
+}
+.modal-footer input.btn.btn-success.btn-lg {
+    position:  static;
+    margin:  0;
+}
+
+.form-group .dif {
+    display:  block;
+    font-weight:  700;
+    font-size: 18px;
+    margin-top: 5px;
+}
+span#resdif {
+    display: block;
+    font-size: 19px;
+    margin-right: 40px;
+    font-weight: 700;
+}
+
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.suuser {
+    display: block;
+    width: 89px;
+    background:  red;
+    position:  fixed;
+    height:  25px;
+    text-align:  center;
+    border-radius: 9px;
+    bottom: 10px;
+    padding-top: 2px;
+    right: 30px;
+}
+
+.suuser a {
+    color: #fff;
+}
